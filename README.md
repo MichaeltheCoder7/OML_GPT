@@ -18,13 +18,13 @@ An [epic](https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-
 ### Story
 
 A [story](https://www.atlassian.com/agile/project-management/epics-stories-themes) is an issue with the label `story`. It may represents a new feature, or an enhancement to an existing feature. A story issue can be broken into sub tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.
-1. Parse Query Results
+1. Parse Query Results\
 As a backend service, my goal is to transform the results from SPARQL queries into a structured format that ChatGPT can interpret, enabling it to convert these results into comprehensible natural language.
 
-2. Submit Query
+2. Submit Query\
 As a user, I want to use the natural language for ask question since I can phrase the question in the most familiar way.
 
-3. Generate SPARQL Query
+3. Generate SPARQL Query\
 As a backend service, I hope to get the SPARQL Query which conert from natural language, so I can get the data the SPARQL directly. 
 
 ### Bug
