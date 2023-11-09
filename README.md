@@ -13,25 +13,25 @@ An issue is a unit of tracking work. Issues can be classified into different cla
 
 An [epic](https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h#epic-issue) is an issue with the label `epic`. It represents a large story that can be broken into stories, which can be addressed over multiple sprints. An epic issue references its story issues as a task list in its description. A Github action has been added to automatically check/uncheck the story task items when they get closed/reopened.
 1. Asynchronous Processing\
-Develop and implement the API necessary for transforing the natural language into SPARQL.
+Develop and implement the API necessary for transforming the natural language into SPARQL.
 
 2. User Interaction\
 Develop the user interface to interact with the OML GPT, submit queries UI, and receive responses.
 
 3. ChatGPT Integration\
-Using the ChatGPT model for natural language understanding and response generation which make easier to sent the SPARQL query back.
+Using the ChatGPT model for natural language understanding and response generation, which makes sending the SPARQL query back easier.
 
 ### Story
 
-A [story](https://www.atlassian.com/agile/project-management/epics-stories-themes) is an issue with the label `story`. It may represents a new feature, or an enhancement to an existing feature. A story issue can be broken into sub tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.
+A [story](https://www.atlassian.com/agile/project-management/epics-stories-themes) is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.
 1. Parse Query Results\
 As a backend service, my goal is to transform the results from SPARQL queries into a structured format that ChatGPT can interpret, enabling it to convert these results into comprehensible natural language.
 
 2. Submit Query\
-As a user, I want to use the natural language for ask question since I can phrase the question in the most familiar way.
+As a user, I want to use the natural language to ask questions since I can phrase the questions in the most familiar way.
 
 3. Generate SPARQL Query\
-As a backend service, I hope to get the SPARQL Query which conert from natural language, so I can get the data the SPARQL directly. 
+As a backend service, I hope to get the SPARQL Query which is converted from the natural language, so I can get the data from the SPARQL directly. 
 
 ### Bug
 
@@ -39,7 +39,7 @@ A bug is an issue with the label `bug`. It represents a problem with the existin
 
 ### Question
 
-A question is an issue with the label `question`. It represents a question raised by any one and that may get converted into other types of issues.
+A question is an issue with the label `question`. It represents a question raised by anyone that may get converted into other types of issues.
 
 ## Labels
 
@@ -47,7 +47,7 @@ In addition to the [standard labels](https://docs.github.com/en/free-pro-team@la
 
 ## Milestones
 
-A [milestone](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/tracking-the-progress-of-your-work-with-milestones) groups issues that are expected to be delivered at some point in time. It also allows ordering (prioritizing) theses issues and tracking their progress (percentage of issues completed so far). In the scrum context, a milestone can be used as a sprint. So, you can create your sprints and give them names like Sprint1, Sprint2, etc. and set their due dates respectively.
+A [milestone](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/tracking-the-progress-of-your-work-with-milestones) groups issues that are expected to be delivered at some point in time. It also allows ordering (prioritizing) these issues and tracking their progress (percentage of issues completed so far). In the scrum context, a milestone can be used as a sprint. So, you can create your sprints and give them names like Sprint1, Sprint2, etc., and set their due dates respectively.
 
 ## Projects
 
@@ -97,11 +97,11 @@ A [project](https://docs.github.com/en/free-pro-team@latest/github/managing-your
 
 ## Branches
 
-The `master` branch is the main branch used for releases. Other branches can be created. For example, a branch called `gh-pages` is often used to create a website for the repository (for more information check this [link](https://pages.github.com/)). Other branches can be created to address the issues of the repository, one branch per issue (called an `issue` branch). Such branches can then be used to create pull requests, where they get peer reviewed and eventually merged into the `master` branch. For more information on branches, check this [link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-branches).
+The `master` branch is the main branch used for releases. Other branches can be created. For example, a branch called `gh-pages` is often used to create a website for the repository (for more information check this [link](https://pages.github.com/)). Other branches can be created to address the issues of the repository, one branch per issue (called an `issue` branch). Such branches can then be used to create pull requests, where they get peer-reviewed and eventually merged into the `master` branch. For more information on branches, check this [link](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-branches).
 
 ## Pull Requests
 
-A [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) is a request to merge commits from one branch to another branch. This is typically used to merge commits from an `issue` branch into the `master` branch. A pull request is how the process of peer review is carried. Reviewers can comment on the code changes to show approval or request changes (which will need to be addressed by additional commits to the `issue` branch). When a CI pipeline is configured for a repository (see below), it will run on any `issue` branch that is part of a pull request. When the peer review process has concluded, the new commits can merged into the `master` branch. The recommended merge option is `Squash and merge`, (i.e., squash all commits into a single commit), since it makes the repository's history simple and linear.
+A [pull request](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-requests) is a request to merge commits from one branch to another branch. This is typically used to merge commits from an `issue` branch into the `master` branch. A pull request is how the process of peer review is carried out. Reviewers can comment on the code changes to show approval or request changes (which will need to be addressed by additional commits to the `issue` branch). When a CI pipeline is configured for a repository (see below), it will run on any `issue` branch that is part of a pull request. When the peer review process has concluded, the new commits can merged into the `master` branch. The recommended merge option is `Squash and merge`, (i.e., squash all commits into a single commit) since it makes the repository's history simple and linear.
 
 ## Tags
 
@@ -127,26 +127,26 @@ Developers go to the `Scrum Board` where they can filter it for the issues assig
 
 ### Reviewing progress
 
-In the daily standup, the `Scrum Master` can review progress by going to the `Scrum Board` and filtering it by the current milestone (sprint). Developers can then reference issues in the various columns when they answer the usual standup questions, e.g., isses they work on (`In progress`), finsihed (`Done`) or yet to work on (`To do`).
+In the daily standup, the `Scrum Master` can review progress by going to the `Scrum Board` and filtering it by the current milestone (sprint). Developers can then reference issues in the various columns when they answer the usual standup questions, e.g., issues they work on (`In progress`), finished (`Done`), or yet to work on (`To do`).
 
 ### Working with issue branches
 
-Before developers can work on an issue, they should checkout and pull the `master` branch to ensure that they have all the latest commits locally. Then, they should create a new local `issue` branch and name it `issue-[number]` (replacing `[number]` by the issue number). Several `issue` branches can be created concurrently, one for each issue, but it is important to make them independent from each other by checking out the `master` branch before creating each of them. This allows them to be pushed and merged independently from each other (and with the least conflicts).
+Before developers can work on an issue, they should check out and pull the `master` branch to ensure that they have all the latest commits locally. Then, they should create a new local `issue` branch and name it `issue-[number]` (replacing `[number]` with the issue number). Several `issue` branches can be created concurrently, one for each issue, but it is important to make them independent from each other by checking out the `master` branch before creating each of them. This allows them to be pushed and merged independently from each other (and with the least conflicts).
 
 Each `issue` branch can accumulate commits to address the issue. When ready, it can then be pushed to a corresponding remote branch that can then be used to create a pull request into the `master` branch. The pull request template needs to be filled at this point. Once created, a pull request can be reviewed by a peer reviewer who may request changes. These changes can be made using new commits in the local `issue` branch that can subsequently be pushed to the corresponding remote `issue` branch. When all peer reviews have concluded, the pull request can then be `squash merged` into the `master` branch ([read more here](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#squash-and-merge-your-pull-request-commits)), and the `issue` branch [can be deleted](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-the-automatic-deletion-of-branches). If the pull request description includes the words `fixes #[number]` (where `[number]` is an issue number), the issue with that number will [automatically be closed](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
 
-> it is recommeded to not push commits to the master branch directly but to always go through a peer review process using an `issue` branch.
+> It is recommended to not push commits to the master branch directly but to always go through a peer review process using an `issue` branch.
 
 ### Creating releases
 
-It is recommended to [create periodic releases](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository#creating-a-release) from a repository, at least at the end of each sprint but can be more frequent. These releases should be working versions of the component(s) being developed in the repository. To create such releases, a new tag representing a version number (e.g., 1.0.0) is added to the local `master` branch then pushed to the remote `master` branch. A new release can then be created in Github using this tag.
+It is recommended to [create periodic releases](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository#creating-a-release) from a repository, at least at the end of each sprint but can be more frequent. These releases should be working versions of the component(s) being developed in the repository. To create such releases, a new tag representing a version number (e.g., 1.0.0) is added to the local `master` branch and then pushed to the remote `master` branch. A new release can then be created in GitHub using this tag.
 
 ### Using a CI/CD pipeline
 
-Every repository needs to have a way to build its artifacts headlessly. It is a good idea to run tests as part of such build. Instructions on how to build the components in a repository needs to be documented in the repository's README.md.
+Every repository needs to have a way to build its artifacts headlessly. It is a good idea to run tests as part of such a build. Instructions on how to build the components in a repository need to be documented in the repository's README.md.
 
-A repository can also be setup to build continuously whenever a commit is pushed to the `master` branch by setting up a CI script (e.g., [Travis CI](https://www.travis-ci.com/)) in its root folder. Such script will configure the build environment (as a virtual machine) and invoke the build script on the `master` branch. If the script fails for some reason, the committer will be notified to fix it. It is a good practice to add a build [badge](https://shields.io/category/version) to the README.md file to visibly indicate the status of the last CI build (Travis CI provides such badges). 
+A repository can also be set up to build continuously whenever a commit is pushed to the `master` branch by setting up a CI script (e.g., [Travis CI](https://www.travis-ci.com/)) in its root folder. Such script will configure the build environment (as a virtual machine) and invoke the build script on the `master` branch. If the script fails for some reason, the committer will be notified to fix it. It is a good practice to add a build [badge](https://shields.io/category/version) to the README.md file to visibly indicate the status of the last CI build (Travis CI provides such badges). 
 
-The CI script will also be run when a new pull request is created or when more commits are pushed to its linked `issue` branch. Such build assures peer reviewers that the new commits when accepted will not break the build. In fact, a successful CI build can be a prerequisute for peer reviewers to look at the changes.
+The CI script will also be run when a new pull request is created or when more commits are pushed to its linked `issue` branch. Such a build assures peer reviewers that the new commits when accepted will not break the build. In fact, a successful CI build can be a prerequisite for peer reviewers to look at the changes.
 
 When a tag is pushed to the `master` branch, the CI script will additionally deliver and/or deploy the built artifact(s). The script can also be configured to create a Github release based on the tag.
