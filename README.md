@@ -12,8 +12,14 @@ An issue is a unit of tracking work. Issues can be classified into different cla
 ### Epic
 
 An [epic](https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h#epic-issue) is an issue with the label `epic`. It represents a large story that can be broken into stories, which can be addressed over multiple sprints. An epic issue references its story issues as a task list in its description. A Github action has been added to automatically check/uncheck the story task items when they get closed/reopened.
+1. Asynchronous Processing\
+Develop and implement the API necessary for transforing the natural language into SPARQL.
 
+2. User Interaction\
+Develop the user interface to interact with the OML GPT, submit queries UI, and receive responses.
 
+3. ChatGPT Integration\
+Using the ChatGPT model for natural language understanding and response generation which make easier to sent the SPARQL query back.
 
 ### Story
 
