@@ -87,7 +87,7 @@ A [project](https://docs.github.com/en/free-pro-team@latest/github/managing-your
 | query-status API: Check the status of a background job                            | Done                  |                      |
 | fetch-result API: Retrieve the final result from a background job                 | Done                  |                      |
 | Set up the testing framework and write initial tests                              | In progress           |                      |
-| Integrate ChatGPT for natural language processing                                 | In progress           | Zeyu                 |
+| Integrate ChatGPT for natural language processing                                 | In progress           |                      |
 | Develop the logic to translate natural language queries to SPARQL queries         | To-do                 |                      |
 | Implement and test the execution of SPARQL queries against the endpoint           | To-do                 |                      |
 | Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | To-do                 |                      |
