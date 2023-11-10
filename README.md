@@ -55,43 +55,43 @@ A [project](https://docs.github.com/en/free-pro-team@latest/github/managing-your
 
 ## Scrum Boards
 ### Scrum Board (Frontend)
-| Task                                                                                         | Implementation Status    |
-|----------------------------------------------------------------------------------------------|--------------------------|
-| Set up the project structure using React                                                     | Done                     |
-| Configure build tools                                                                        | Done                     | 
-| Create mockups for the UI, showing how the user will interact with the system                | Done                     |
-| Define the color scheme, typography, and overall style guide                                 | Done                     |
-| Develop reusable components such as buttons, input fields, modals, etc.                      | Done                     | 
-| Implement the UI for users to submit queries                                                 | Done                     | 
-| Basic layout and navigation structure                                                        | Done                     |
-| Set up services to interact with the backend API endpoints                                   | In-progress              |
-| Handle HTTP requests and responses, including error handling                                 | In-progress              | 
-| Implement the UI for displaying the results in natural language                              | In-progress              | 
-| Handle form submission and validation on the client side                                     | To-do                    |
-| Ensure the state updates are reflected across the UI components                              | To-do                    |
-| Create components for displaying the status of the submitted query (loading, success, error) | To-do                    |
-| Implement the mechanism to submit user feedback on responses                                 | To-do                    |
-| Pagination or scrolling for results                                                          | To-do                    |
+| Task                                                                                         | Implementation Status    | Team Member Assigned |
+|----------------------------------------------------------------------------------------------|--------------------------|----------------------|
+| Set up the project structure using React                                                     | Done                     | Ziwei                |
+| Configure build tools                                                                        | Done                     |                      |
+| Create mockups for the UI, showing how the user will interact with the system                | Done                     |                      |
+| Define the color scheme, typography, and overall style guide                                 | Done                     |                      |
+| Develop reusable components such as buttons, input fields, modals, etc.                      | Done                     |                      |
+| Implement the UI for users to submit queries                                                 | Done                     |                      |
+| Basic layout and navigation structure                                                        | Done                     |                      |
+| Set up services to interact with the backend API endpoints                                   | In-progress              |                      |
+| Handle HTTP requests and responses, including error handling                                 | In-progress              |                      |
+| Implement the UI for displaying the results in natural language                              | In-progress              |                      |
+| Handle form submission and validation on the client side                                     | To-do                    |                      |
+| Ensure the state updates are reflected across the UI components                              | To-do                    |                      |
+| Create components for displaying the status of the submitted query (loading, success, error) | To-do                    |                      |
+| Implement the mechanism to submit user feedback on responses                                 | To-do                    |                      |
+| Pagination or scrolling for results                                                          | To-do                    |                      |
 
 ### Scrum Board (Backend)
-| Task                                                                              | Implementation Status |
-|-----------------------------------------------------------------------------------|-----------------------|
-| Set up version control                                                            | Done                  |
-| Define directory structure and initial files                                      | Done                  | 
-| Set up virtual environment and dependencies                                       | Done                  | 
-| Basic Django project setup with REST framework integration                        | Done                  | 
-| Initial models, views, and URLs                                                   | Done                  | 
-| Define UserQuery model                                                            | Done                  |
-| Set up basic task to handle background processing                                 | Done                  | 
-| submit-query API: Receive queries and start background job                        | Done                  | 
-| query-status API: Check the status of a background job                            | Done                  | 
-| fetch-result API: Retrieve the final result from a background job                 | Done                  | 
-| Set up the testing framework and write initial tests                              | In progress           | 
-| Integrate ChatGPT for natural language processing                                 | In progress           | 
-| Develop the logic to translate natural language queries to SPARQL queries         | To-do                 |
-| Implement and test the execution of SPARQL queries against the endpoint           | To-do                 |
-| Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | To-do                 |
-| Install and configure Celery with Redis for asynchronous processing               | To-do                 |
+| Task                                                                              | Implementation Status | Team Member Assigned |
+|-----------------------------------------------------------------------------------|-----------------------|----------------------|
+| Set up version control                                                            | Done                  | Ziwei                |
+| Define directory structure and initial files                                      | Done                  |                      |
+| Set up virtual environment and dependencies                                       | Done                  |                      |
+| Basic Django project setup with REST framework integration                        | Done                  |                      |
+| Initial models, views, and URLs                                                   | Done                  |                      |
+| Define UserQuery model                                                            | Done                  |                      |  
+| Set up basic task to handle background processing                                 | Done                  |                      |
+| submit-query API: Receive queries and start background job                        | Done                  |                      |
+| query-status API: Check the status of a background job                            | Done                  |                      |
+| fetch-result API: Retrieve the final result from a background job                 | Done                  |                      |
+| Set up the testing framework and write initial tests                              | In progress           |                      |
+| Integrate ChatGPT for natural language processing                                 | In progress           |                      |
+| Develop the logic to translate natural language queries to SPARQL queries         | To-do                 |                      |
+| Implement and test the execution of SPARQL queries against the endpoint           | To-do                 |                      |
+| Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | To-do                 |                      |
+| Install and configure Celery with Redis for asynchronous processing               | To-do                 |                      |
 
 
 
