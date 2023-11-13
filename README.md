@@ -3,7 +3,7 @@
 [![Build Status](https://app.travis-ci.com/melaasar/cs130-template.svg?branch=master)](https://app.travis-ci.com/github/melaasar/cs130-template)
 [![Release](https://img.shields.io/github/v/release/melaasar/cs130-template?label=release)](https://github.com/melaasar/cs130-template/releases/latest)
 
-This repo serves as a template for a repository that follows the Scrum process. The following information describes how the native features/workflows of Github can be customized to work in a scrum development process.
+This repo serves as a Scrum Board to track the development process for OML GPT project.
 
 ## Issues
 
@@ -11,8 +11,8 @@ An issue is a unit of tracking work. Issues can be classified into different cla
 
 ### Epic
 
-An [epic](https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h#epic-issue) is an issue with the label `epic`. It represents a large story that can be broken into stories, which can be addressed over multiple sprints. An epic issue references its story issues as a task list in its description. A Github action has been added to automatically check/uncheck the story task items when they get closed/reopened.
-1. Asynchronous Processing\
+[//]: # (An [epic]&#40;https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h#epic-issue&#41; is an issue with the label `epic`. It represents a large story that can be broken into stories, which can be addressed over multiple sprints. An epic issue references its story issues as a task list in its description. A Github action has been added to automatically check/uncheck the story task items when they get closed/reopened.)
+1. Question Processing\
 Develop and implement the API necessary for transforming the natural language into SPARQL.
 
 2. User Interaction\
@@ -23,7 +23,7 @@ Using the ChatGPT model for natural language understanding and response generati
 
 ### Story
 
-A [story](https://www.atlassian.com/agile/project-management/epics-stories-themes) is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.
+[//]: # (A [story]&#40;https://www.atlassian.com/agile/project-management/epics-stories-themes&#41; is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.)
 1. Parse Query Results\
 As a backend service, my goal is to transform the results from SPARQL queries into a structured format that ChatGPT can interpret, enabling it to convert these results into comprehensible natural language.
 
@@ -33,61 +33,53 @@ As a user, I want to use the natural language to ask questions since I can phras
 3. Generate SPARQL Query\
 As a backend service, I hope to get the SPARQL Query which is converted from the natural language, so I can get the data from the SPARQL directly. 
 
-### Bug
+[//]: # (### Bug)
 
-A bug is an issue with the label `bug`. It represents a problem with the existing code that needs to be fixed.
+[//]: # (A bug is an issue with the label `bug`. It represents a problem with the existing code that needs to be fixed.)
 
-### Question
+[//]: # (### Question)
 
-A question is an issue with the label `question`. It represents a question raised by anyone that may get converted into other types of issues.
+[//]: # (A question is an issue with the label `question`. It represents a question raised by anyone that may get converted into other types of issues.)
 
-## Labels
+[//]: # (## Labels)
 
-In addition to the [standard labels](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/managing-labels#about-default-labels) above, you can add new labels to issues to classify them into different classes like `documentation`, `frontend`, etc, or to add metadata like `duplicate`, `invalid` etc.
+[//]: # (In addition to the [standard labels]&#40;https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/managing-labels#about-default-labels&#41; above, you can add new labels to issues to classify them into different classes like `documentation`, `frontend`, etc, or to add metadata like `duplicate`, `invalid` etc.)
 
-## Milestones
+[//]: # (## Milestones)
 
-A [milestone](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/tracking-the-progress-of-your-work-with-milestones) groups issues that are expected to be delivered at some point in time. It also allows ordering (prioritizing) these issues and tracking their progress (percentage of issues completed so far). In the scrum context, a milestone can be used as a sprint. So, you can create your sprints and give them names like Sprint1, Sprint2, etc., and set their due dates respectively.
+[//]: # (A [milestone]&#40;https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/tracking-the-progress-of-your-work-with-milestones&#41; groups issues that are expected to be delivered at some point in time. It also allows ordering &#40;prioritizing&#41; these issues and tracking their progress &#40;percentage of issues completed so far&#41;. In the scrum context, a milestone can be used as a sprint. So, you can create your sprints and give them names like Sprint1, Sprint2, etc., and set their due dates respectively.)
 
-## Projects
+[//]: # (## Projects)
 
-A [project](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/tracking-the-progress-of-your-work-with-project-boards) is a kanban-style board that can aggregate a set of issues for any purpose. In the scrum context, we can create one project called `Scrum Board` and choose its template as `Automated kanban with reviews`. (This will create a set of initial notes that you can delete).
+[//]: # (A [project]&#40;https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/tracking-the-progress-of-your-work-with-project-boards&#41; is a kanban-style board that can aggregate a set of issues for any purpose. In the scrum context, we can create one project called `Scrum Board` and choose its template as `Automated kanban with reviews`. &#40;This will create a set of initial notes that you can delete&#41;.)
 
 ## Scrum Boards
 ### Scrum Board (Frontend)
-| Task                                                                                         | Implementation Status    | Team Member Assigned |
-|----------------------------------------------------------------------------------------------|--------------------------|----------------------|
-| Set up the project structure using React                                                     | Done                     | Ziwei                |
-| Configure build tools                                                                        | Done                     |                      |
-| Create mockups for the UI, showing how the user will interact with the system                | Done                     |                      |
-| Define the color scheme, typography, and overall style guide                                 | Done                     |                      |
-| Develop reusable components such as buttons, input fields, modals, etc.                      | Done                     |                      |
-| Implement the UI for users to submit queries                                                 | Done                     |                      |
-| Basic layout and navigation structure                                                        | Done                     |                      |
-| Set up services to interact with the backend API endpoints                                   | In-progress              |                      |
-| Handle HTTP requests and responses, including error handling                                 | In-progress              |                      |
-| Implement the UI for displaying the results in natural language                              | In-progress              |                      |
-| Handle form submission and validation on the client side                                     | To-do                    |                      |
-| Ensure the state updates are reflected across the UI components                              | To-do                    |                      |
-| Create components for displaying the status of the submitted query (loading, success, error) | To-do                    |                      |
-| Implement the mechanism to submit user feedback on responses                                 | To-do                    |                      |
-| Pagination or scrolling for results                                                          | To-do                    |                      |
+| Task                                                                                         | Implementation Status | Team Member Assigned |
+|----------------------------------------------------------------------------------------------|-----------------------|----------------------|
+| Set up the project structure using React                                                     | Done                  | Ziwei                |
+| Define the color scheme, typography, and overall style guide                                 | Done                  | Jiaxi                |
+| Develop reusable components such as buttons, input fields, modals, etc.                      | Done                  | Ziwei                |
+| Implement the UI for users to submit queries                                                 | Done                  | Ziwei                |
+| Implement page for user to view history of submitted questions                               | Done                  | Jiaxi                |
+| Set up services to interact with the backend API endpoints                                   | To-do                 |                      |
+| Handle HTTP requests and responses, including error handling                                 | To-do                 |                      |
+| Implement the UI for displaying the results in natural language                              | To-do                 |                      |
+| Handle form submission and validation on the client side                                     | To-do                 |                      |
+| Ensure the state updates are reflected across the UI components                              | To-do                 |                      |
+| Create components for displaying the status of the submitted query (loading, success, error) | To-do                 |                      |
+| Implement the mechanism to submit user feedback on responses                                 | To-do                 |                      |
+| Pagination or scrolling for results                                                          | To-do                 |                      |
 
 ### Scrum Board (Backend)
 | Task                                                                              | Implementation Status | Team Member Assigned |
 |-----------------------------------------------------------------------------------|-----------------------|----------------------|
-| Set up version control                                                            | Done                  | Ziwei                |
-| Define directory structure and initial files                                      | Done                  |                      |
-| Set up virtual environment and dependencies                                       | Done                  |                      |
-| Basic Django project setup with REST framework integration                        | Done                  |                      |
-| Initial models, views, and URLs                                                   | Done                  |                      |
-| Define UserQuery model                                                            | Done                  |                      |  
-| Set up basic task to handle background processing                                 | Done                  |                      |
-| submit-query API: Receive queries and start background job                        | Done                  |                      |
-| query-status API: Check the status of a background job                            | Done                  |                      |
-| fetch-result API: Retrieve the final result from a background job                 | Done                  |                      |
+| Basic Django project setup with REST framework integration                        | Done                  | Ziwei                |
+| submit-query API: Receive queries and start background job                        | Done                  | Ziwei                |
+| query-status API: Check the status of a background job                            | Done                  | Ziwei                |
+| fetch-result API: Retrieve the final result from a background job                 | Done                  | Ziwei                |
 | Set up the testing framework and write initial tests                              | In progress           | Zeyu                 |
-| Integrate ChatGPT for natural language processing                                 | In progress           |                      |
+| Integrate ChatGPT for natural language processing                                 | To-do                 |                      |
 | Develop the logic to translate natural language queries to SPARQL queries         | To-do                 |                      |
 | Implement and test the execution of SPARQL queries against the endpoint           | To-do                 |                      |
 | Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | To-do                 |                      |
