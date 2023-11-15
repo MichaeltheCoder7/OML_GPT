@@ -79,6 +79,8 @@ As a backend service, I hope to get the SPARQL Query which is converted from the
 | query-status API: Check the status of a background job                            | Done                  | Ziwei                |
 | fetch-result API: Retrieve the final result from a background job                 | Done                  | Ziwei                |
 | Set up the testing framework and write initial tests                              | In progress           | Zeyu                 |
+| User authentication system APIs : register, login, log out                        | In progress           | Ziwei                |
+| fetch-submission-history API : Submission history fetching of current user        | In progress           | Ziwei                |
 | Integrate ChatGPT for natural language processing                                 | To-do                 |                      |
 | Develop the logic to translate natural language queries to SPARQL queries         | To-do                 |                      |
 | Implement and test the execution of SPARQL queries against the endpoint           | To-do                 |                      |
