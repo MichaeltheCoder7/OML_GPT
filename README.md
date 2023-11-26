@@ -82,7 +82,7 @@ As a backend service, I hope to get the SPARQL Query which is converted from the
 | User authentication system APIs : register, login, log out                        | Done                  | Ziwei                |
 | fetch-submission-history API : Submission history fetching of current user        | Done                  | Ziwei                |
 | Integrate ChatGPT for natural language processing                                 | To-do                 |                      |
-| Develop the logic to translate natural language queries to SPARQL queries         | To-do                 |                      |
+| Develop the logic to translate natural language queries to SPARQL queries         | In progress           | Yunhao Du            |
 | Implement and test the execution of SPARQL queries against the endpoint           | To-do                 |                      |
 | Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | To-do                 |                      |
 | Implement the execution of sparql in apache fuseki over HTTP                      | In progress           | Ziwei                |
