@@ -186,7 +186,7 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | submit-query API: Receive queries and start background job                        | Done                  | Ziwei                |
 | query-status API: Check the status of a background job                            | Done                  | Ziwei                |
 | fetch-result API: Retrieve the final result from a background job                 | Done                  | Ziwei                |
-| Set up the testing framework and write initial tests                              | In progress           | Zeyu                 |
+| Set up the testing framework and write initial tests                              | Done                  | Zeyu                 |
 | User authentication system APIs : register, login, log out                        | Done                  | Ziwei                |
 | fetch-submission-history API : Submission history fetching of current user        | Done                  | Ziwei                |
 | Integrate ChatGPT for natural language processing                                 | Done                  | Lam                  |
@@ -194,6 +194,16 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | Implement and test the execution of SPARQL queries against the endpoint           | Done                  | Lam                  |
 | Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | Done                  | Lam                  |
 | Implement the execution of sparql in apache fuseki over HTTP                      | In progress           | Ziwei                |
+| Implement and perform unit tests for communicate_chatgpt method in tasks module   | Done                  | Zeyu, Minkai         |
+| Implement and perform unit tests for generate_sparql method in task module        | Done                  | Zeyu, Minkai         |
+| Implement and perform unit tests for generate_result method in task module        | Done                  | Minkai               |
+| Implement and perform unit tests for execute_fuseki method in task module         | Done                  | Minkai               |
+| Implement and perform unit tests for execute_fuseki_query method in task module   | Done                  | Minkai               |
+| Implement and perform unit tests for execute_wikidata method in task module       | Done                  | Minkai               |
+| Implement and perform unit tests for execute_wikidata_query method in task module | Done                  | Minkai               |
+| Implement and perform unit tests for process_query method in task module          | In progress           |                      |
+
+
 
 
 
