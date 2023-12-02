@@ -239,10 +239,6 @@ Each `issue` branch can accumulate commits to address the issue. When ready, it 
 
 > It is recommended to not push commits to the master branch directly but to always go through a peer review process using an `issue` branch.
 
-### Creating releases
-
-It is recommended to [create periodic releases](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository#creating-a-release) from a repository, at least at the end of each sprint but can be more frequent. These releases should be working versions of the component(s) being developed in the repository. To create such releases, a new tag representing a version number (e.g., 1.0.0) is added to the local `master` branch and then pushed to the remote `master` branch. A new release can then be created in GitHub using this tag.
-
 ### Using a CI/CD pipeline
 
 Every repository needs to have a way to build its artifacts headlessly. It is a good idea to run tests as part of such a build. Instructions on how to build the components in a repository need to be documented in the repository's README.md.
