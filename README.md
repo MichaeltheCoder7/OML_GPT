@@ -195,13 +195,13 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | Done                  | Lam                  |
 | Implement the execution of sparql in apache fuseki over HTTP                      | In progress           | Ziwei                |
 | Implement and perform unit tests for communicate_chatgpt method in tasks module   | Done                  | Zeyu, Minkai         |
-| Implement and perform unit tests for generate_sparql method in task module        | Done                  | Zeyu, Minkai         |
-| Implement and perform unit tests for generate_result method in task module        | Done                  | Minkai               |
-| Implement and perform unit tests for execute_fuseki method in task module         | Done                  | Minkai               |
-| Implement and perform unit tests for execute_fuseki_query method in task module   | Done                  | Minkai               |
-| Implement and perform unit tests for execute_wikidata method in task module       | Done                  | Minkai               |
-| Implement and perform unit tests for execute_wikidata_query method in task module | Done                  | Minkai               |
-| Implement and perform unit tests for process_query method in task module          | In progress           |                      |
+| Implement and perform unit tests for generate_sparql method in tasks module       | Done                  | Zeyu, Minkai         |
+| Implement and perform unit tests for generate_result method in tasks module       | Done                  | Minkai               |
+| Implement and perform unit tests for execute_fuseki method in tasks module        | Done                  | Minkai               |
+| Implement and perform unit tests for execute_fuseki_query method in tasks module  | Done                  | Minkai               |
+| Implement and perform unit tests for execute_wikidata method in tasks module      | Done                  | Minkai               |
+| Implement and perform unit tests for execute_wikidata_query method in tasks module| Done                  | Minkai               |
+| Implement and perform unit tests for process_query method in tasks module         | In progress           |                      |
 
 
 
