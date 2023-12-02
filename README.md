@@ -3,35 +3,143 @@
 [![Build Status](https://app.travis-ci.com/melaasar/cs130-template.svg?branch=master)](https://app.travis-ci.com/github/melaasar/cs130-template)
 [![Release](https://img.shields.io/github/v/release/melaasar/cs130-template?label=release)](https://github.com/melaasar/cs130-template/releases/latest)
 
-This repo serves as a Scrum Board to track the development process for OML GPT project.
+### Description
+Our project creates a integration of OpenAI's ChatGPT with a formal knowledge base using Ontological Modeling Language (OML) vocabulary and SPARQL querying. This appliaction creates a complex system that translates natural language queries into structured SPARQL queries, allowing users to interact with complex data effortlessly. Here's an overview of the entire project:
 
-## Issues
+### Usage
+The usage of our integrated ChatGPT and formal knowledge base designed to be intuitive and friendly for users, meet the needs of a broad audience regardless of their technical background. Users begin by accessing our web-based application, where they are greeted by a chat-like interface which like ChatGPT. Here, they can input their questions or queries in natural language, just as having a conversation with someone in real life. At the backend, powered by ChatGPT, interprets these queries and translates them into SPARQL queries using the defined OML. These queries are then executed against the formal knowledge base. The results are converted back into natural language and presented to the user in the same chat interface, making the process of querying complex data sets as simple as having a reality chat. This system is ideal for those who want to get answers in complex data without having SPARQL technology. It provides services between advanced data query and user-friendly interaction.
 
-An issue is a unit of tracking work. Issues can be classified into different classes using `labels`. This can be used to classify issues in the scrum process as follows.
+### Feature
+#### Backend
+1. **Advanced Natural Language processing：** The coreof our backend lies the integration of ChatGPT's sophisticated language models. This model expertise in processing and interpreting user queries presented in natural language. This feature allows our system to understand and analyze user inputs as if they were conversing with a human. This can ensure that user queries are processed efficiently and accurately.
+2. **Automatic SPARQL Query Generation：** An important functionality of our backend is it can transform user queries, phrased in everyday language, into precise SPARQL queries. In the process, we exploit nuances to improve the accuracy and relevance of queries. By doing this, we ensure that the retrieved data is closely integrated with the user's question, increasing the effectiveness of the query.
+3. **Interaction with Knowledge Base:** As we carefully design the system, our system can interact efficiently with different knowledge bases, executing SPARQL queries and retrieving the data most relevant to user requests. This interaction is not only fast, but also able to handle the adaptation problem of different knowledge bases. This makes our query function more widely used.
+4. **Intuitive Data Translation:** A standout feature of our backend is its ability to convert complex query results into clear and concise natural language responses. This is particularly important because it makes the application accessible to users who do not have technical expertise in SPARQL. By providing simple and easy-to-understand functionality, our system makes tools accessible to a variety of users with varying levels of technical knowledge.
+#### Fronted 
+1. **Intuitive Chat Interface:** Our frontend boasts a highly interactive chat interface, designed to allow users to input queries in a familiar, user-friendly format. This feature allows users to input their queries in a format that is both familiar and user-friendly which may reduce the learning curve and enhancing user engagement.
+2. **Real-Time Interaction:** Our application provide delivering as fast as possible responses to user queries, ensuring an uninterrupted and dynamic user experience. This real-time interaction is key to keeping users engaged and satisfied, providing them with immediate feedback and answers to their inquiries.
+3. **Backend Integration:** Our frontend is expertly efficiently communicatesd with the backend system, ensuring precise and efficient communication. This integration guarantees that user queries are processed accurately and the responses are delivered quickly. This maintain the reliability of the user experience.
+4. **User-Friendly Navigation:** The design of our application is centered on simplicity and ease of use, which make each user of all technical backgrounds can use directly. We've ensured that navigating through the application is intuitive and straightforward.
+5. **Robust Security Measures:** Security is one of the most important feature in our application. We implement strong security protocols to protect user data and interactions with the backend. This feature ensures that user information is protected and that all interactions are secure in the application.
+6. **Comprehensive User Guide and Help Section:** To help users easily get started with our application, we provide an extensive user guide and help section. This feature contains tutorials designed to guide users through the application's various features, ensuring they can effectively utilize all its features. At the same time, they can also provide timely feedback when encountering problems.
+7. **Optimized Performance:** Performance is key in our application design. We've optimized the frontend to ensure rapid loading times and smooth interactions. This optimization ensures a smooth and fast user experience.
+
+### Contributing 
+Contributions to OML_GPT are welcome! We want to get your contributing, such as:
+1. Reporting a bug
+2. submitting a fix
+3. Proposing new features
+4. Discussing the current code
+#### We develop wit Github
+We use Github to host code, track issue and pull request. Pull requests are the best way to propose the change to the code. We welcome your pull request.
+1. Fork the repo and create your branch from master.
+2. If you add code that should be tested, adding tests.
+3. If you chang APIs, update the documentation to mention us.
+
+### Contact
+Zeyu Tan ztan56@outlook.com\
+Minkai Yang minkaiyang@g.ucla.edu\
+Lam Hoang Lamhoang1213@g.ucla.edu\
+Yunhao Du dudulu19980209@gmail.com\
+Jiaxi Wang jwang008@g.ucla.edu\
+Ziwei Ren zren57@g.ucla.edu\
+Project Link: https://github.com/CS130Team/OML_GPT
+
 
 ### Epic
 
 [//]: # (An [epic]&#40;https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h#epic-issue&#41; is an issue with the label `epic`. It represents a large story that can be broken into stories, which can be addressed over multiple sprints. An epic issue references its story issues as a task list in its description. A Github action has been added to automatically check/uncheck the story task items when they get closed/reopened.)
-1. Question Processing\
+1. **Asynchronous Processing**\
 Develop and implement the API necessary for transforming the natural language into SPARQL.
-
-2. User Interaction\
+2. **User Interaction**\
 Develop the user interface to interact with the OML GPT, submit queries UI, and receive responses.
-
-3. ChatGPT Integration\
+3. **ChatGPT Integration**\
 Using the ChatGPT model for natural language understanding and response generation, which makes sending the SPARQL query back easier.
+4. **API Development**\
+Create and integrate backend application programming interfaces (APIs) that convert natural language inquiries into SPARQL queries and then translate the results back into comprehensible natural language answers.
+5. **Documentation and Training**\
+Create comprehensive documentation and provide training materials for future developers and users. Develop thorough documentation and prepare educational content for the orientation and use of subsequent developers and users.
+6. **Deployment and Monitoring**\
+Launch the application in a live production setting and establish suitable systems for monitoring and logging to ensure smooth operation.
 
 ### Story
 
 [//]: # (A [story]&#40;https://www.atlassian.com/agile/project-management/epics-stories-themes&#41; is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.)
-1. Parse Query Results\
+1. **Parse Query Results**\
 As a backend service, my goal is to transform the results from SPARQL queries into a structured format that ChatGPT can interpret, enabling it to convert these results into comprehensible natural language.
-
-2. Submit Query\
+2. **Submit Query**\
 As a user, I want to use the natural language to ask questions since I can phrase the questions in the most familiar way.
+3. **Generate SPARQL Query**\
+As a backend service, I hope to get the SPARQL Query which is converted from the natural language, so I can get the data from the SPARQL directly.
+4. **API Development**\
+As a backend developer, I want to design and implement APIs that can translate natural language queries into SPARQL queries, so that the system can understand and process user requests efficiently.
+5. **Documentation and Training**\
+As a technical writer, I want to create detailed documentation and training materials for the system, so that future developers and users can easily understand and use the application.
+6. **Deployment and Monitoring**\
+As a DevOps engineer, I want to deploy the application in a production environment with effective monitoring and logging, so that we can ensure its continuous operation and quickly address any issues that arise.
 
-3. Generate SPARQL Query\
-As a backend service, I hope to get the SPARQL Query which is converted from the natural language, so I can get the data from the SPARQL directly. 
+### Sprint 
+#### Sprint 1: Project Initialization and Future Planning
+* Objective: Set the foundation for the project.
+* Tasks: 
+  * Define the project goal.
+  * Determine role arrangements and tasks for each role.
+  * Create the initial product backlog.
+
+#### Sprint 2: System Architecture and Design
+* Objective: Design the system architecture.
+* Tasks:
+  * Design the backend architecture, including ChatGPT integration and SPARQL query generator.
+  * Sketch the frontend interface and user flow.
+  * Plan the backend-to-frontend communication choice.
+  
+#### Sprint 3: Frontend Development - Part 1
+* Objective: Begin frontend development.
+* Tasks:
+  * Set up the frontend development environment.
+  * Draw front-end UI diagram
+  * Implement the chat interface.
+
+#### Sprint 4: Backend Development - Part 1
+* Objective: Begin backend development
+* Tasks:
+  * Set up the server and database 
+  * Implement basic SPARQL query generation.
+
+#### Sprint 5: Frontend Development - Part 2
+* Objective: Further develop the frontend.
+* Tasks:
+  * Enhance the UI design.
+  * Complete Real-time interactive function.
+
+#### Sprint 6: Backend Development - Part 2
+* Objective: Further develop the Backend
+* Tasks:
+  * Refine SPARQL query generation.
+  * Refine the knowledge base integration.
+  * Implement response processing.
+
+#### Sprint 7: Testing
+* Objective: Test and refine the system.
+* Tasks:
+  * Conduct unit testing for backend.
+  * Optimize frontend design.
+  * Gather feedback from initial user testing.
+
+#### Sprint 8: Finalization and Deployment
+* Objective: Prepare for launch.
+* Tasks:
+  * Finalize all development tasks.
+  * Conduct system testing.
+  * Prepare deployment environment.
+
+#### Sprint 9: Maintenance
+* Objective: Manage post-launch activities.
+* Tasks:
+  * Address any emerging issues or bugs.
+  * Plan for future updates and features.
+  * Collect user's feedback for future improvements.
+
 
 [//]: # (### Bug)
 
@@ -130,10 +238,6 @@ Before developers can work on an issue, they should check out and pull the `mast
 Each `issue` branch can accumulate commits to address the issue. When ready, it can then be pushed to a corresponding remote branch that can then be used to create a pull request into the `master` branch. The pull request template needs to be filled at this point. Once created, a pull request can be reviewed by a peer reviewer who may request changes. These changes can be made using new commits in the local `issue` branch that can subsequently be pushed to the corresponding remote `issue` branch. When all peer reviews have concluded, the pull request can then be `squash merged` into the `master` branch ([read more here](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges#squash-and-merge-your-pull-request-commits)), and the `issue` branch [can be deleted](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-the-automatic-deletion-of-branches). If the pull request description includes the words `fixes #[number]` (where `[number]` is an issue number), the issue with that number will [automatically be closed](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword).
 
 > It is recommended to not push commits to the master branch directly but to always go through a peer review process using an `issue` branch.
-
-### Creating releases
-
-It is recommended to [create periodic releases](https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/managing-releases-in-a-repository#creating-a-release) from a repository, at least at the end of each sprint but can be more frequent. These releases should be working versions of the component(s) being developed in the repository. To create such releases, a new tag representing a version number (e.g., 1.0.0) is added to the local `master` branch and then pushed to the remote `master` branch. A new release can then be created in GitHub using this tag.
 
 ### Using a CI/CD pipeline
 
