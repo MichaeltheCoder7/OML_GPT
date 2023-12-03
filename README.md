@@ -201,9 +201,10 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | Implement and perform unit tests for execute_fuseki_query method in tasks module  | Done                  | Minkai               |
 | Implement and perform unit tests for execute_wikidata method in tasks module      | Done                  | Minkai               |
 | Implement and perform unit tests for execute_wikidata_query method in tasks module| Done                  | Minkai               |
-| Implement and perform unit tests for process_query method in tasks module         | In progress           | Yunhao Du            |
-
-
+| Implement and perform unit tests for process_query for status Failed              | In progress           | Yunhao Du            |
+| Implement and perform unit tests for process_query for status SPARQLGEN           | In progress           | Yunhao Du            |
+| Implement and perform unit tests for process_query for status QUERIED             | In progress           | Yunhao Du            |
+| Implement and perform unit tests for process_query for status RESULTGEN           | In progress           | Yunhao Du            |
 
 
 
