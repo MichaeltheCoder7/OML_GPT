@@ -190,7 +190,7 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | User authentication system APIs : register, login, log out                        | Done                  | Ziwei                |
 | fetch-submission-history API : Submission history fetching of current user        | Done                  | Ziwei                |
 | Integrate ChatGPT for natural language processing                                 | Done                  | Lam                  |
-| Develop the logic to translate natural language queries to SPARQL queries         | In progress           | Yunhao Du            |
+| Develop the logic to translate natural language queries to SPARQL queries         | Done                  | Yunhao Du            |
 | Implement and test the execution of SPARQL queries against the endpoint           | Done                  | Lam                  |
 | Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | Done                  | Lam                  |
 | Implement the execution of sparql in apache fuseki over HTTP                      | In progress           | Ziwei                |
@@ -201,7 +201,7 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | Implement and perform unit tests for execute_fuseki_query method in tasks module  | Done                  | Minkai               |
 | Implement and perform unit tests for execute_wikidata method in tasks module      | Done                  | Minkai               |
 | Implement and perform unit tests for execute_wikidata_query method in tasks module| Done                  | Minkai               |
-| Implement and perform unit tests for process_query method in tasks module         | In progress           |                      |
+| Implement and perform unit tests for process_query method in tasks module         | In progress           | Yunhao Du            |
 
 
 
