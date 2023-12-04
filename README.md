@@ -93,51 +93,43 @@ As a DevOps engineer, I want to deploy the application in a production environme
   * Sketch the frontend interface and user flow.
   * Plan the backend-to-frontend communication choice.
   
-#### Sprint 3: Frontend Development - Part 1 (week4 - week 6)
+#### Sprint 3: Frontend Development (week4 - week 8)
 * Objective: Begin frontend development.
 * Tasks(Done):
-  * Set up the frontend development environment.
-  * Draw front-end UI diagram
-  * Implement the chat interface.
+  * Part1 (week4 - week 6)
+    * Set up the frontend development environment.
+    * Draw front-end UI diagram
+    * Implement the chat interface. 
+  * Part2 (week7 - week 8)
+    * Enhance the UI design.
+    * Implement the UI for displaying the results.
+    * Create components for displaying the status.
 
-#### Sprint 4: Backend Development - Part 1 (week4 - week 6)
+#### Sprint 4: Backend Development (week4 - week 8)
 * Objective: Begin backend development
 * Tasks(Done):
-  * Set up the server and database 
-  * Checkout API for the backend. 
-  * Implement basic SPARQL query generation.
+  * Part1 (week4 - week 6)
+    * Set up the server and database 
+    * Checkout API for the backend. 
+    * Implement basic SPARQL query generation.
+  * Part2 (week7 - week 8)
+    * Refine the knowledge base integration.
+    * Develop and test logic to parse SPARQL results 
+    * Implement and test the execution of SPARQL queries
+    * Implement response processing.
 
-#### Sprint 5: Frontend Development - Part 2 (week 7 - week 8)
-* Objective: Further develop the frontend.
-* Tasks(Done):
-  * Enhance the UI design.
-  * Implement the UI for displaying the results.
-  * Create components for displaying the status.
-
-#### Sprint 6: Backend Development - Part 2 (week 7 - week 8)
-* Objective: Further develop the Backend
-* Tasks(Done):
-  * Refine the knowledge base integration.
-  * Develop and test logic to parse SPARQL results 
-  * Implement and test the execution of SPARQL queries
-  * Implement response processing.
-
-#### Sprint 7: Testing (week9)
+#### Sprint 5: Testing, Finalization and Deployment(week9)
 * Objective: Test and refine the system.
 * Tasks(Done):
   * Implement and perform unit tests for tasks module
   * Implement and perform unit tests for process_query 
   * Optimize frontend design.
   * Gather feedback from initial user testing.
-
-#### Sprint 8: Finalization and Deployment (week9)
-* Objective: Prepare for launch.
-* Tasks(Done):
   * Finalize all development tasks.
   * Conduct system testing.
   * Prepare deployment environment.
 
-#### Sprint 9: Maintenance (week9)
+#### Sprint 6: Maintenance 
 * Objective: Manage post-launch activities.
 * Tasks:
   * Address any emerging issues or bugs.
