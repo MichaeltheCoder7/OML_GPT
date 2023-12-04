@@ -130,14 +130,14 @@ As a DevOps engineer, I want to deploy the application in a production environme
   * Optimize frontend design.
   * Gather feedback from initial user testing.
 
-#### Sprint 8: Finalization and Deployment
+#### Sprint 8: Finalization and Deployment (week9)
 * Objective: Prepare for launch.
-* Tasks:
+* Tasks(Done):
   * Finalize all development tasks.
   * Conduct system testing.
   * Prepare deployment environment.
 
-#### Sprint 9: Maintenance
+#### Sprint 9: Maintenance (week9)
 * Objective: Manage post-launch activities.
 * Tasks:
   * Address any emerging issues or bugs.
