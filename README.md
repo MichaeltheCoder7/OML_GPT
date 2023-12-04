@@ -79,50 +79,54 @@ As a technical writer, I want to create detailed documentation and training mate
 As a DevOps engineer, I want to deploy the application in a production environment with effective monitoring and logging, so that we can ensure its continuous operation and quickly address any issues that arise.
 
 ### Sprint 
-#### Sprint 1: Project Initialization and Future Planning
+#### Sprint 1: Project Initialization and Future Planning (week2)
 * Objective: Set the foundation for the project.
-* Tasks: 
+* Tasks(Done):
   * Define the project goal.
   * Determine role arrangements and tasks for each role.
   * Create the initial product backlog.
 
-#### Sprint 2: System Architecture and Design
+#### Sprint 2: System Architecture and Design (week3)
 * Objective: Design the system architecture.
-* Tasks:
+* Tasks(Done):
   * Design the backend architecture, including ChatGPT integration and SPARQL query generator.
   * Sketch the frontend interface and user flow.
   * Plan the backend-to-frontend communication choice.
   
-#### Sprint 3: Frontend Development - Part 1
+#### Sprint 3: Frontend Development - Part 1 (week4 - week 6)
 * Objective: Begin frontend development.
-* Tasks:
+* Tasks(Done):
   * Set up the frontend development environment.
   * Draw front-end UI diagram
   * Implement the chat interface.
 
-#### Sprint 4: Backend Development - Part 1
+#### Sprint 4: Backend Development - Part 1 (week4 - week 6)
 * Objective: Begin backend development
-* Tasks:
+* Tasks(Done):
   * Set up the server and database 
+  * Checkout API for the backend. 
   * Implement basic SPARQL query generation.
 
-#### Sprint 5: Frontend Development - Part 2
+#### Sprint 5: Frontend Development - Part 2 (week 7 - week 8)
 * Objective: Further develop the frontend.
-* Tasks:
+* Tasks(Done):
   * Enhance the UI design.
-  * Complete Real-time interactive function.
+  * Implement the UI for displaying the results.
+  * Create components for displaying the status.
 
-#### Sprint 6: Backend Development - Part 2
+#### Sprint 6: Backend Development - Part 2 (week 7 - week 8)
 * Objective: Further develop the Backend
-* Tasks:
-  * Refine SPARQL query generation.
+* Tasks(Done):
   * Refine the knowledge base integration.
+  * Develop and test logic to parse SPARQL results 
+  * Implement and test the execution of SPARQL queries
   * Implement response processing.
 
-#### Sprint 7: Testing
+#### Sprint 7: Testing (week9)
 * Objective: Test and refine the system.
-* Tasks:
-  * Conduct unit testing for backend.
+* Tasks(Done):
+  * Implement and perform unit tests for tasks module
+  * Implement and perform unit tests for process_query 
   * Optimize frontend design.
   * Gather feedback from initial user testing.
 
@@ -170,14 +174,14 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | Develop reusable components such as buttons, input fields, modals, etc.                      | Done                  | Ziwei                |
 | Implement the UI for users to submit queries                                                 | Done                  | Ziwei                |
 | Implement page for user to view history of submitted questions                               | Done                  | Jiaxi                |
-| Set up services to interact with the backend API endpoints                                   | To-do                 |                      |
-| Handle HTTP requests and responses, including error handling                                 | To-do                 |                      |
-| Implement the UI for displaying the results in natural language                              | To-do                 |                      |
-| Handle form submission and validation on the client side                                     | To-do                 |                      |
-| Ensure the state updates are reflected across the UI components                              | To-do                 |                      |
-| Create components for displaying the status of the submitted query (loading, success, error) | To-do                 |                      |
-| Implement the mechanism to submit user feedback on responses                                 | To-do                 |                      |
-| Pagination or scrolling for results                                                          | To-do                 |                      |
+| Set up services to interact with the backend API endpoints                                   | Done                  | Jiaxi                |
+| Handle HTTP requests and responses, including error handling                                 | Done                  | Jiaxi                |
+| Implement the UI for displaying the results in natural language                              | Done                  | Jiaxi                |
+| Handle form submission and validation on the client side                                     | Done                  | Jiaxi                |
+| Ensure the state updates are reflected across the UI components                              | Done                  | Jiaxi                |
+| Create components for displaying the status of the submitted query (loading, success, error) | Done                  | Jiaxi                |
+| Implement the mechanism to submit user feedback on responses                                 | Done                  | Jiaxi                |
+| Pagination or scrolling for results                                                          | Done                  | Jiaxi                |
 
 ### Scrum Board (Backend)
 | Task                                                                              | Implementation Status | Team Member Assigned |
@@ -201,7 +205,7 @@ As a DevOps engineer, I want to deploy the application in a production environme
 | Implement and perform unit tests for execute_fuseki_query method in tasks module  | Done                  | Minkai               |
 | Implement and perform unit tests for execute_wikidata method in tasks module      | Done                  | Minkai               |
 | Implement and perform unit tests for execute_wikidata_query method in tasks module| Done                  | Minkai               |
-| Implement and perform unit tests for process_query for status Failed              | DOne                  | Yunhao Du            |
+| Implement and perform unit tests for process_query for status Failed              | Done                  | Yunhao Du            |
 | Implement and perform unit tests for process_query for status SPARQLGEN           | Done                  | Yunhao Du            |
 | Implement and perform unit tests for process_query for status QUERIED             | Done                  | Yunhao Du            |
 | Implement and perform unit tests for process_query for status RESULTGEN           | Done                  | Yunhao Du            |
