@@ -61,7 +61,10 @@ Create and integrate backend application programming interfaces (APIs) that conv
 Create comprehensive documentation and provide training materials for future developers and users. Develop thorough documentation and prepare educational content for the orientation and use of subsequent developers and users.
 6. **Deployment and Monitoring**\
 Launch the application in a live production setting and establish suitable systems for monitoring and logging to ensure smooth operation.
-
+7. **Search and Query Functionality**\
+Optimized queries can be queried according to different needs. 
+8. **Database Query Performance Optimization**\
+Choose the suitable database for optimizing query performance.
 ### Story
 
 [//]: # (A [story]&#40;https://www.atlassian.com/agile/project-management/epics-stories-themes&#41; is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.)
@@ -77,7 +80,10 @@ As a backend developer, I want to design and implement APIs that can translate n
 As a technical writer, I want to create detailed documentation and training materials for the system, so that future developers and users can easily understand and use the application.
 6. **Deployment and Monitoring**\
 As a DevOps engineer, I want to deploy the application in a production environment with effective monitoring and logging, so that we can ensure its continuous operation and quickly address any issues that arise.
-
+7. **Search and Query Functionality**\
+As a user, I want to perform semantic searches using natural language queries and get contextually relevant results.
+8. **Database Query Performance Optimization**\
+As a database administrator, I want to optimize the database indexing strategy to reduce query execution times for complex queries.
 ### Sprint 
 #### Sprint 1: Project Initialization and Future Planning (week2)
 * Objective: Set the foundation for the project.
