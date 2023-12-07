@@ -83,7 +83,7 @@ As a DevOps engineer, I want to deploy the application in a production environme
 7. **Search and Query Functionality**\
 As a user, I want to perform semantic searches using natural language queries and get contextually relevant results.
 8. **Database Query Performance Optimization**\
-As a database administrator, I want to optimize the database indexing strategy to reduce query execution times for complex queries.
+As a database administrator, I want to optimize database indexing strategy to reduce query execution times for complex queries.
 ### Sprint 
 #### Sprint 1: Project Initialization and Future Planning (week2)
 * Objective: Set the foundation for the project.
