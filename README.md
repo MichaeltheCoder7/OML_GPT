@@ -65,6 +65,8 @@ Launch the application in a live production setting and establish suitable syste
 Optimized queries can be queried according to different needs. 
 8. **Database Query Performance Optimization**\
 Choose the suitable database for optimizing query performance.
+9. **Query History**\
+Add query history to enhance user experience.
 ### Story
 
 [//]: # (A [story]&#40;https://www.atlassian.com/agile/project-management/epics-stories-themes&#41; is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.)
@@ -84,6 +86,8 @@ As a DevOps engineer, I want to deploy the application in a production environme
 As a user, I want to perform semantic searches using natural language queries and get contextually relevant results.
 8. **Database Query Performance Optimization**\
 As a database administrator, I want to optimize database indexing strategy to reduce query execution times for complex queries.
+9. **Query History**\
+As a user, I want to view recent searches.
 ### Sprint 
 #### Sprint 1: Project Initialization and Future Planning (week2)
 * Objective: Set the foundation for the project.
