@@ -184,6 +184,8 @@ As a user, I want to view recent searches.
 | Create components for displaying the status of the submitted query (loading, success, error) | Done                  | Jiaxi                |
 | Implement the mechanism to submit user feedback on responses                                 | Done                  | Jiaxi                |
 | Pagination or scrolling for results                                                          | Done                  | Jiaxi                |
+| Set up testing framework for frontend                                                        | Done                  | Minkai               |
+| Implement test cases                                                                         | Done                  | Minkai               |
 
 ### Scrum Board (Backend)
 | Task                                                                              | Implementation Status | Team Member Assigned |
