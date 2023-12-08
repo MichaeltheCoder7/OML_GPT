@@ -49,7 +49,7 @@ Project Link: https://github.com/CS130Team/OML_GPT
 ### Epic
 
 [//]: # (An [epic]&#40;https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h#epic-issue&#41; is an issue with the label `epic`. It represents a large story that can be broken into stories, which can be addressed over multiple sprints. An epic issue references its story issues as a task list in its description. A Github action has been added to automatically check/uncheck the story task items when they get closed/reopened.)
-1. **Asynchronous Processing**\
+1. **Asynchronous Processing**\ 
 Develop and implement the API necessary for transforming the natural language into SPARQL.
 2. **User Interaction**\
 Develop the user interface to interact with the OML GPT, submit queries UI, and receive responses.
@@ -89,23 +89,16 @@ As a database administrator, I want to optimize database indexing strategy to re
 9. **Query History**\
 As a user, I want to view recent searches.
 ### Sprint 
-#### Sprint 1: Project Initialization and Future Planning (week2)
+#### Sprint 1: Project Initialization and System Design(week 2-week 3)
 * Objective: Set the foundation for the project.
 * Tasks(Done):
   * Define the project goal.
   * Determine role arrangements and tasks for each role.
   * Create the initial product backlog.
 
-#### Sprint 2: System Architecture and Design (week3)
-* Objective: Design the system architecture.
-* Tasks(Done):
-  * Design the backend architecture, including ChatGPT integration and SPARQL query generator.
-  * Sketch the frontend interface and user flow.
-  * Plan the backend-to-frontend communication choice.
-  
-#### Sprint 3: Frontend Development (week4 - week 8)
+#### Sprint 2: Frontend and Backend Development (week 4 - week 8)
 * Objective: Begin frontend development.
-* Tasks(Done):
+* Tasks(Completed):
   * Part1 (week4 - week 6)
     * Set up the frontend development environment.
     * Draw front-end UI diagram
@@ -115,22 +108,17 @@ As a user, I want to view recent searches.
     * Implement the UI for displaying the results.
     * Create components for displaying the status.
 
-#### Sprint 4: Backend Development (week4 - week 8)
-* Objective: Begin backend development
-* Tasks(Done):
-  * Part1 (week4 - week 6)
-    * Set up the server and database 
-    * Checkout API for the backend. 
-    * Implement basic SPARQL query generation.
-  * Part2 (week7 - week 8)
-    * Refine the knowledge base integration.
-    * Develop and test logic to parse SPARQL results 
-    * Implement and test the execution of SPARQL queries
-    * Implement response processing.
+#### Sprint 3: Debugging & Optimization (week 7 - week 9)
+* Objective:Focus on debugging, optimizing, and refining the existing system
+* Tasks(Completed):
+  * Review and prioritize existing issues and bugs reported during testing and user feedback.
+  * Debug and Resolve Issues
+  * Optimization Strategies, Code Review and Refactoring
+  * User Acceptance Testing
 
-#### Sprint 5: Testing, Finalization and Deployment(week9)
+#### Sprint 4: Testing, Finalization and Deployment(week9)
 * Objective: Test and refine the system.
-* Tasks(Done):
+* Tasks(Completed):
   * Implement and perform unit tests for tasks module
   * Implement and perform unit tests for process_query 
   * Optimize frontend design.
@@ -139,12 +127,6 @@ As a user, I want to view recent searches.
   * Conduct system testing.
   * Prepare deployment environment.
 
-#### Sprint 6: Maintenance 
-* Objective: Manage post-launch activities.
-* Tasks:
-  * Address any emerging issues or bugs.
-  * Plan for future updates and features.
-  * Collect user's feedback for future improvements.
 
 
 [//]: # (### Bug)
