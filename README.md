@@ -89,43 +89,46 @@ As a database administrator, I want to optimize database indexing strategy to re
 9. **Query History**\
 As a user, I want to view recent searches.
 ### Sprint 
-#### Sprint 1: Project Initialization and System Design(week 2-week 3)
+#### Sprint 1: Project Initialization and System Design
 * Objective: Set the foundation for the project.
-* Tasks(Done):
+* Tasks(Completed):
   * Define the project goal.
   * Determine role arrangements and tasks for each role.
-  * Create the initial product backlog.
+  * Set up frontend and backend development environment.
+  * Design the frontend interface and user flow.
+  * Design the backend architecture, including ChatGPT integration and SPARQL query generator.
 
-#### Sprint 2: Frontend and Backend Development (week 4 - week 8)
-* Objective: Begin frontend development.
+#### Sprint 2: Frontend and Backend Development
+* Objective: Begin frontend and backend development.
 * Tasks(Completed):
-  * Part1 (week4 - week 6)
-    * Set up the frontend development environment.
-    * Draw front-end UI diagram
-    * Implement the chat interface. 
-  * Part2 (week7 - week 8)
+    * Implement basic components and pages.
+    * Implement page navigation logic.
     * Enhance the UI design.
-    * Implement the UI for displaying the results.
-    * Create components for displaying the status.
+    * Set up the server, knowledge base, and database.
+    * Implement API for the backend.
+    * Implement SPARQL query generation and result generation.
+    * Implement user register and login.
+    * Setup CI/CD.
 
-#### Sprint 3: Debugging & Optimization (week 7 - week 9)
+#### Sprint 3: Debugging & Optimization 
 * Objective:Focus on debugging, optimizing, and refining the existing system
 * Tasks(Completed):
   * Review and prioritize existing issues and bugs reported during testing and user feedback.
   * Debug and Resolve Issues
   * Optimization Strategies, Code Review and Refactoring
-  * User Acceptance Testing
+  * Optimize frontend design.
+  * Start frontend and backend testing.
+  * Connect frontend to backend API.
 
-#### Sprint 4: Testing, Finalization and Deployment(week9)
+#### Sprint 4: Testing, Finalization and Deployment
 * Objective: Test and refine the system.
 * Tasks(Completed):
-  * Implement and perform unit tests for tasks module
-  * Implement and perform unit tests for process_query 
-  * Optimize frontend design.
+  * Continue to implement and perform unit tests for tasks module
+  * Continue to implement and perform unit tests for process_query
   * Gather feedback from initial user testing.
   * Finalize all development tasks.
   * Conduct system testing.
-  * Prepare deployment environment.
+  * Prepare deployment environment with CI/CD.
 
 
 
@@ -170,31 +173,31 @@ As a user, I want to view recent searches.
 | Implement test cases                                                                         | Done                  | Minkai               |
 
 ### Scrum Board (Backend)
-| Task                                                                              | Implementation Status | Team Member Assigned |
-|-----------------------------------------------------------------------------------|-----------------------|----------------------|
-| Basic Django project setup with REST framework integration                        | Done                  | Ziwei                |
-| submit-query API: Receive queries and start background job                        | Done                  | Ziwei                |
-| query-status API: Check the status of a background job                            | Done                  | Ziwei                |
-| fetch-result API: Retrieve the final result from a background job                 | Done                  | Ziwei                |
-| Set up the testing framework and write initial tests                              | Done                  | Zeyu                 |
-| User authentication system APIs : register, login, log out                        | Done                  | Ziwei                |
-| fetch-submission-history API : Submission history fetching of current user        | Done                  | Ziwei                |
-| Integrate ChatGPT for natural language processing                                 | Done                  | Lam                  |
-| Develop the logic to translate natural language queries to SPARQL queries         | Done                  | Yunhao Du            |
-| Implement and test the execution of SPARQL queries against the endpoint           | Done                  | Lam                  |
-| Develop and test logic to parse SPARQL results into a format suitable for ChatGPT | Done                  | Lam                  |
-| Implement the execution of sparql in apache fuseki over HTTP                      | In progress           | Ziwei                |
-| Implement and perform unit tests for communicate_chatgpt method in tasks module   | Done                  | Zeyu, Minkai         |
-| Implement and perform unit tests for generate_sparql method in tasks module       | Done                  | Zeyu, Minkai         |
-| Implement and perform unit tests for generate_result method in tasks module       | Done                  | Minkai               |
-| Implement and perform unit tests for execute_fuseki method in tasks module        | Done                  | Minkai               |
-| Implement and perform unit tests for execute_fuseki_query method in tasks module  | Done                  | Minkai               |
-| Implement and perform unit tests for execute_wikidata method in tasks module      | Done                  | Minkai               |
-| Implement and perform unit tests for execute_wikidata_query method in tasks module| Done                  | Minkai               |
-| Implement and perform unit tests for process_query for status Failed              | Done                  | Yunhao Du            |
-| Implement and perform unit tests for process_query for status SPARQLGEN           | Done                  | Yunhao Du            |
-| Implement and perform unit tests for process_query for status QUERIED             | Done                  | Yunhao Du            |
-| Implement and perform unit tests for process_query for status RESULTGEN           | Done                  | Yunhao Du            |
+| Task                                                                               | Implementation Status | Team Member Assigned |
+|------------------------------------------------------------------------------------|-----------------------|----------------------|
+| Basic Django project setup with REST framework integration                         | Done                  | Ziwei                |
+| submit-query API: Receive queries and start background job                         | Done                  | Ziwei                |
+| query-status API: Check the status of a background job                             | Done                  | Ziwei                |
+| fetch-result API: Retrieve the final result from a background job                  | Done                  | Ziwei                |
+| Set up the testing framework and write initial tests                               | Done                  | Zeyu                 |
+| User authentication system APIs : register, login, log out                         | Done                  | Ziwei                |
+| fetch-submission-history API : Submission history fetching of current user         | Done                  | Ziwei                |
+| Integrate ChatGPT for natural language processing                                  | Done                  | Lam                  |
+| Develop the logic to translate natural language queries to SPARQL queries          | Done                  | Yunhao Du            |
+| Implement and test the execution of SPARQL queries against the endpoint            | Done                  | Lam                  |
+| Develop and test logic to parse SPARQL results into a format suitable for ChatGPT  | Done                  | Lam                  |
+| Implement the execution of sparql in apache fuseki over HTTP                       | Done                  | Ziwei                |
+| Implement and perform unit tests for communicate_chatgpt method in tasks module    | Done                  | Zeyu, Minkai         |
+| Implement and perform unit tests for generate_sparql method in tasks module        | Done                  | Zeyu, Minkai         |
+| Implement and perform unit tests for generate_result method in tasks module        | Done                  | Minkai               |
+| Implement and perform unit tests for execute_fuseki method in tasks module         | Done                  | Minkai               |
+| Implement and perform unit tests for execute_fuseki_query method in tasks module   | Done                  | Minkai               |
+| Implement and perform unit tests for execute_wikidata method in tasks module       | Done                  | Minkai               |
+| Implement and perform unit tests for execute_wikidata_query method in tasks module | Done                  | Minkai               |
+| Implement and perform unit tests for process_query for status Failed               | Done                  | Yunhao Du            |
+| Implement and perform unit tests for process_query for status SPARQLGEN            | Done                  | Yunhao Du            |
+| Implement and perform unit tests for process_query for status QUERIED              | Done                  | Yunhao Du            |
+| Implement and perform unit tests for process_query for status RESULTGEN            | Done                  | Yunhao Du            |
 
 
 
