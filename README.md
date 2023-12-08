@@ -49,24 +49,24 @@ Project Link: https://github.com/CS130Team/OML_GPT
 ### Epic
 
 [//]: # (An [epic]&#40;https://dev.to/jorenrui/a-look-into-how-i-manage-my-personal-projects-my-git-github-workflow-1e7h#epic-issue&#41; is an issue with the label `epic`. It represents a large story that can be broken into stories, which can be addressed over multiple sprints. An epic issue references its story issues as a task list in its description. A Github action has been added to automatically check/uncheck the story task items when they get closed/reopened.)
-1. **Asynchronous Processing**\ 
-Develop and implement the API necessary for transforming the natural language into SPARQL.
-2. **User Interaction**\
-Develop the user interface to interact with the OML GPT, submit queries UI, and receive responses.
-3. **ChatGPT Integration**\
-Using the ChatGPT model for natural language understanding and response generation, which makes sending the SPARQL query back easier.
+1. **Parse Query Results**\
+Result Interpretation and Transformation
+2. **Submit Query**\
+Natural Language Query Submission
+3. **Generate SPARQL Query**\
+Natural Language to SPARQL Conversion
 4. **API Development**\
-Create and integrate backend application programming interfaces (APIs) that convert natural language inquiries into SPARQL queries and then translate the results back into comprehensible natural language answers.
+Natural Language Query Processing
 5. **Documentation and Training**\
-Create comprehensive documentation and provide training materials for future developers and users. Develop thorough documentation and prepare educational content for the orientation and use of subsequent developers and users.
+Comprehensive Documentation and Training
 6. **Deployment and Monitoring**\
-Launch the application in a live production setting and establish suitable systems for monitoring and logging to ensure smooth operation.
+Production Deployment and Monitoring
 7. **Search and Query Functionality**\
-Optimized queries can be queried according to different needs. 
+Semantic Search Enhancement
 8. **Database Query Performance Optimization**\
-Choose the suitable database for optimizing query performance.
+Database Query Performance Enhancement
 9. **Query History**\
-Add query history to enhance user experience.
+User Query History
 ### Story
 
 [//]: # (A [story]&#40;https://www.atlassian.com/agile/project-management/epics-stories-themes&#41; is an issue with the label `story`. It may represent a new feature or an enhancement to an existing feature. A story issue can be broken into sub-tasks, which are added as a task list in the description of the story issue. These sub task items can be checked manually by the developer to indicate completion.)
