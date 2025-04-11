@@ -43,8 +43,6 @@ Lam Hoang Lamhoang1213@g.ucla.edu\
 Yunhao Du dudulu19980209@gmail.com\
 Jiaxi Wang jwang008@g.ucla.edu\
 Ziwei Ren zren57@g.ucla.edu\
-Project Link: https://github.com/CS130Team/OML_GPT
-
 
 ### Epic
 
